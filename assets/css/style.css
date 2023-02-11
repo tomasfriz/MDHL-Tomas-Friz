@@ -21,6 +21,10 @@ nav a{
     left: 3rem;
     top: 1rem;
 }
+a[href="#"]{
+    color: white;
+    background-color:limegreen;
+}
 
 /* imagenes */
 header figure img {
