@@ -7,7 +7,7 @@
 }
 
 /* body */
-body{
+body {
     background-color: whitesmoke;
 }
 
@@ -36,7 +36,7 @@ a[href="#"] {
     background-color: blue;
 }
 
-a:hover{
+a:hover {
     background-color: darkblue;
     font-size: larger;
 }
