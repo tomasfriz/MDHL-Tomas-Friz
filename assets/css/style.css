@@ -50,7 +50,6 @@ h1 {
 }
 
 /* secciones */
-
 section {
     display: inline-block;
     vertical-align: top;
@@ -58,7 +57,8 @@ section {
     padding-left: 5rem;
     width: 75%;
 }
-section p{
+
+section p {
     padding-bottom: 2rem;
     padding-left: 2rem;
 }
