@@ -9,6 +9,27 @@ header figure img{
     width: 100%;
 }
 
-section figure img{
+img{
     width: 20%;
+}
+
+h1{
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    border: solid 0.1rem black;
+}
+
+section{
+    display: inline-block;
+    padding: 5rem;
+}
+
+footer{
+    min-height: 6rem;
+    text-align: center;
+    padding-top: 3rem;
+    border: solid 0.1rem black;
 }
