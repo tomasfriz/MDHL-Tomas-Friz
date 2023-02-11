@@ -7,10 +7,11 @@
 }
 
 /* navegador */
-nav{
+nav {
     display: inline-block;
 }
-nav a{
+
+nav a {
     border: solid 0.1rem black;
     text-decoration: none;
     background-color: dodgerblue;
@@ -21,15 +22,17 @@ nav a{
     left: 3rem;
     top: 1rem;
 }
-a[href="#"]{
+
+a[href="#"] {
     color: white;
-    background-color:limegreen;
+    background-color: limegreen;
 }
 
 /* imagenes */
 header figure img {
     width: 100%;
 }
+
 img {
     width: 15%;
 }
@@ -40,20 +43,24 @@ h1 {
     font-style: italic;
     font-size: 4rem;
 }
+
 #border {
     text-align: center;
     border: solid 0.1rem black;
 }
 
 /* secciones */
+
 section {
     display: inline-block;
-    padding-left: 3rem;
-    padding-bottom: 3rem;
+    vertical-align: top;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 75%;
 }
 section p{
+    padding-bottom: 2rem;
     padding-left: 2rem;
-    padding-bottom: 1rem;
 }
 
 /* footer */
