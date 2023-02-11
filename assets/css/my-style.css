@@ -6,26 +6,39 @@
     font-family: sans-serif;
 }
 
+/* body */
+body{
+    background-color: whitesmoke;
+}
+
 /* navegador */
 nav {
     display: inline-block;
 }
 
 nav a {
-    border: solid 0.1rem black;
+    border: solid 0.2rem black;
     text-decoration: none;
-    background-color: dodgerblue;
-    margin: 0.3rem;
+    background-color: red;
     color: white;
-    padding: 0.3rem 1.5rem;
+    margin-left: 0.3rem;
+    padding: 0.3rem 2rem;
     position: relative;
-    left: 3rem;
-    top: 1rem;
+    left: 2rem;
+    bottom: 0.6rem;
+    font-size: larger;
+    border-radius: 5rem;
+    font-weight: bold;
 }
 
 a[href="#"] {
     color: white;
-    background-color: limegreen;
+    background-color: blue;
+}
+
+a:hover{
+    background-color: darkblue;
+    font-size: larger;
 }
 
 /* imagenes */
@@ -33,20 +46,26 @@ header figure img {
     width: 100%;
 }
 
-img {
+main img {
     width: 15%;
+    margin: 2rem;
 }
 
 /* titulos */
 h1 {
     display: inline-block;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    color: darkblue;
+    padding: 1rem;
 }
 
 #border {
     text-align: center;
-    border: solid 0.1rem black;
+    background-color: red;
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
 }
 
 /* secciones */
@@ -68,5 +87,7 @@ footer {
     min-height: 6rem;
     text-align: center;
     padding-top: 3rem;
-    border: solid 0.1rem black;
+    color: white;
+    background-color: darkblue;
+    font-size: larger;
 }
