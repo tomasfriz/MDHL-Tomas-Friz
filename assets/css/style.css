@@ -1,33 +1,59 @@
-*{
+/* general */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-header figure img{
+/* navegador */
+nav{
+    display: inline-block;
+}
+nav a{
+    border: solid 0.1rem black;
+    text-decoration: none;
+    background-color: dodgerblue;
+    margin: 0.3rem;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+}
+
+/* imagenes */
+header figure img {
     width: 100%;
 }
-
-img{
-    width: 20%;
+img {
+    width: 15%;
 }
 
-h1{
+/* titulos */
+h1 {
+    display: inline-block;
     font-style: italic;
+    font-size: 4rem;
 }
-
-h2{
+#border {
     text-align: center;
     border: solid 0.1rem black;
 }
 
-section{
+/* secciones */
+section {
     display: inline-block;
-    padding: 5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+section p{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 
-footer{
+/* footer */
+footer {
     min-height: 6rem;
     text-align: center;
     padding-top: 3rem;
