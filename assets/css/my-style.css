@@ -48,6 +48,8 @@ header figure img {
 
 main img {
     width: 15%;
+    height: 15%;
+    object-fit: contain;
     margin: 2rem;
 }
 
