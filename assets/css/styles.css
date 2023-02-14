@@ -94,3 +94,26 @@ footer {
     background-color: darkblue;
     font-size: larger;
 }
+
+/* tabla */
+
+table {
+    border: solid 0.1rem black;
+    margin: 2rem;
+}
+
+td,
+tr,
+th {
+    border: solid 0.1rem black;
+    padding: 1rem;
+}
+
+#itemLetra{
+    
+}
+
+/* div */
+div p {
+    /* display: inline-block; */
+}
