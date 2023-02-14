@@ -37,7 +37,7 @@ a[href="#"] {
     background-color: blue;
 }
 
-a:hover {
+nav a:hover {
     background-color: darkblue;
     font-size: larger;
 }
@@ -96,28 +96,43 @@ footer {
 }
 
 /* tabla */
-
 table {
-    border: solid 0.1rem black;
+    background-color: gold;
     margin: 2rem;
+    border-radius: 2rem;
+    border: 0.5rem solid darkorange;
 }
 
 td,
 tr,
 th {
-    border: solid 0.1rem black;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
-#itemLetra{
+/* listas */
+#itemLetra {
     list-style-type: lower-latin;
 }
 
-ul li{
+.espacio {
+    padding: 0.5rem;
+}
+
+ul li {
     list-style-type: circle;
+    padding-bottom: 2rem;
+}
+
+ol li{
+    padding: 1rem;
 }
 
 /* div */
+div {
+    width: 65%;
+}
+
 div p {
-    /* display: inline-block; */
+    display: inline-block;
+    padding-left: 5rem;
 }
