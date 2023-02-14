@@ -110,7 +110,11 @@ th {
 }
 
 #itemLetra{
-    
+    list-style-type: lower-latin;
+}
+
+ul li{
+    list-style-type: circle;
 }
 
 /* div */
