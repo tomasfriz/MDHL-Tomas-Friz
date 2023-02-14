@@ -13,7 +13,12 @@ body {
 
 /* navegador */
 nav {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
 }
 
 nav a {
@@ -21,11 +26,7 @@ nav a {
     text-decoration: none;
     background-color: red;
     color: white;
-    margin-left: 0.3rem;
-    padding: 0.3rem 2rem;
-    position: relative;
-    left: 2rem;
-    bottom: 0.6rem;
+    padding: 0.3rem 4rem;
     font-size: larger;
     border-radius: 5rem;
     font-weight: bold;
@@ -55,11 +56,11 @@ main img {
 
 /* titulos */
 h1 {
-    display: inline-block;
     font-style: italic;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: darkblue;
     padding: 1rem;
+    text-align: center;
 }
 
 #border {
