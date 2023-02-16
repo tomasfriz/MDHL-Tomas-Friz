@@ -144,3 +144,54 @@ ol li {
     padding: 6rem 5rem;
     width: 75%;
 }
+#formulario {
+    margin: 2rem;
+    text-align: center;
+}
+
+/* form */
+form {
+    display: inline-block;
+    padding: 2rem;
+}
+
+/* legend span {
+    padding: 10px;
+    margin: 5px;
+    background: darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 3px white;
+} */
+
+/* label {
+    font-size: x-large;
+} */
+
+/* input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 80%;
+    color: black;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+} */
+
+/* input[type=submit] {
+    width: 90%;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+} */
