@@ -63,7 +63,7 @@ h1 {
     text-align: center;
 }
 
-.border {
+.bordes {
     text-align: center;
     background-color: red;
     color: white;
@@ -79,10 +79,17 @@ section {
     padding-left: 5rem;
     width: 75%;
 }
-
 section p {
     padding-bottom: 2rem;
     padding-left: 2rem;
+}
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
 }
 
 /* footer */
@@ -129,5 +136,5 @@ ol li {
 
 /* div */
 div {
-    width: 77%;
+    width: 75%;
 }
