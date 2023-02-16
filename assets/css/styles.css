@@ -135,3 +135,9 @@ ol li {
     padding: 2rem;
     display: inline-block;
 }
+#contactos{
+    display: inline-block;
+    vertical-align: top;
+    padding: 6rem 5rem;
+    width: 75%;
+}
