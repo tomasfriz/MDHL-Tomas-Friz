@@ -79,11 +79,13 @@ section {
     padding-left: 5rem;
     width: 75%;
 }
+
 section p {
     padding-bottom: 2rem;
     padding-left: 2rem;
 }
-section div{
+
+section div {
     width: 75%;
 }
 
@@ -135,7 +137,8 @@ ol li {
     padding: 2rem;
     display: inline-block;
 }
-#contactos{
+
+#contactos {
     display: inline-block;
     vertical-align: top;
     padding: 6rem 5rem;
