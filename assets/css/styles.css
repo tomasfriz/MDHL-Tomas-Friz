@@ -126,13 +126,3 @@ ul li {
 ol li {
     padding: 1rem;
 }
-
-/* div */
-div {
-    width: 65%;
-}
-
-div p {
-    display: inline-block;
-    padding-left: 5rem;
-}
