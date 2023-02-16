@@ -84,12 +84,7 @@ section p {
     padding-left: 2rem;
 }
 section div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 1rem;
+    width: 75%;
 }
 
 /* footer */
@@ -135,6 +130,8 @@ ol li {
 }
 
 /* div */
-div {
-    width: 75%;
+.mapas {
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
 }
