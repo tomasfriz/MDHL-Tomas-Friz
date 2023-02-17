@@ -176,7 +176,7 @@ label {
 input[type=text],
 input[type=number],
 input[type=date] {
-    width: 80%;
+    width: 40%;
     color: black;
     padding: 1vw;
     margin: 1vw;
