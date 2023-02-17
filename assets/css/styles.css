@@ -144,6 +144,7 @@ ol li {
     padding: 6rem 5rem;
     width: 75%;
 }
+
 #formulario {
     margin: 2rem;
     text-align: center;
@@ -188,7 +189,7 @@ input[type=date] {
 input[type=radio],
 input[type=checkbox] {
     color: black;
-    
+
     display: inline-block;
     box-sizing: border-box;
 }
