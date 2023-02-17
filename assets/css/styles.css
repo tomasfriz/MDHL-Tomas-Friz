@@ -153,24 +153,28 @@ ol li {
 form {
     display: inline-block;
     padding: 2rem;
+    background-color: gold;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: 0.5rem solid darkorange;
 }
 
-/* legend span {
-    padding: 10px;
-    margin: 5px;
-    background: darkcyan;
-    border-radius: 10px;
+legend {
+    margin: 1rem;
+}
+
+legend span {
     text-align: center;
-    border: solid 3px white;
-} */
+    font-weight: bold;
+}
 
-/* label {
-    font-size: x-large;
-} */
+label {
+    padding-right: 1rem;
+}
 
-/* input[type=text],
-input[type=tel],
-input[type=email] {
+input[type=text],
+input[type=number],
+input[type=date] {
     width: 80%;
     color: black;
     padding: 1vw;
@@ -179,19 +183,29 @@ input[type=email] {
     border: 1vw;
     border-radius: 5px;
     box-sizing: border-box;
-} */
+}
 
-/* input[type=submit] {
-    width: 90%;
+input[type=radio],
+input[type=checkbox] {
+    color: black;
+    
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
     background-color: darkgreen;
+    font-size: larger;
+    font-weight: bold;
     color: white;
-    padding: 20px 20px;
-    margin: 10px 10px;
+    padding: 1rem;
+    margin: 1rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 1vw;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
     background-color: green;
-} */
+}
