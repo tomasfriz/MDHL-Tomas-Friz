@@ -1,0 +1,211 @@
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* body */
+body {
+    background-color: whitesmoke;
+}
+
+/* navegador */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+nav a {
+    border: solid 0.2rem black;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-size: larger;
+    border-radius: 5rem;
+    font-weight: bold;
+}
+
+a[href="#"] {
+    color: white;
+    background-color: blue;
+}
+
+nav a:hover {
+    background-color: darkblue;
+}
+
+/* imagenes */
+header figure img {
+    width: 100%;
+}
+
+main img {
+    width: 15%;
+    height: 15%;
+    object-fit: contain;
+    margin: 2rem;
+}
+
+/* titulos */
+h1 {
+    font-style: italic;
+    font-size: 5rem;
+    color: darkblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bordes {
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+/* secciones */
+section {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 75%;
+}
+
+section p {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+section div {
+    width: 75%;
+}
+
+/* footer */
+footer {
+    min-height: 6rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+    background-color: darkblue;
+    font-size: larger;
+}
+
+/* tabla */
+table {
+    background-color: gold;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: 0.5rem solid darkorange;
+}
+
+td,
+tr,
+th {
+    padding: 1rem 2rem;
+}
+
+/* listas */
+#itemLetra {
+    list-style-type: lower-latin;
+}
+
+.espacio {
+    padding: 0.5rem;
+}
+
+ul li {
+    list-style-type: circle;
+    padding-bottom: 2rem;
+}
+
+ol li {
+    padding: 1rem;
+}
+
+/* div */
+.mapas {
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+}
+
+#contactos {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6rem 5rem;
+    width: 75%;
+}
+
+#formulario {
+    margin: 2rem;
+    text-align: center;
+}
+
+/* form */
+form {
+    display: inline-block;
+    padding: 2rem;
+    background-color: gold;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: 0.5rem solid darkorange;
+}
+
+legend {
+    margin: 1rem;
+}
+
+legend span {
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    padding-right: 1rem;
+}
+
+input[type=text],
+input[type=number],
+input[type=date] {
+    width: 40%;
+    color: black;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    color: black;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: darkgreen;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
